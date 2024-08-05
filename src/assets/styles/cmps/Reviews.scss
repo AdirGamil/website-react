@@ -133,6 +133,7 @@
       }
 
       .review-list {
+        flex-direction: row;
         gap: rem(60px);
 
         .review {

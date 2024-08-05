@@ -1,5 +1,5 @@
 import HeroRightIcon from '../assets/images/bg-pattern-home-2.svg'
-import HeroLeftIcon from '../assets/images/bg-pattern-about-2-contact-1.svg'
+import HeroLeftIcon from '../assets/images/bg-pattern-home-1.svg'
 
 export function HeroSection() {
   return (

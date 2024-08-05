@@ -43,12 +43,9 @@
       height: 50px; 
     }
   
-    @media (min-width: 768px) {
+    @media (min-width: 641px) {
   
-      .skills-container {
-        display: flex;
-        flex-direction: column;
-      }
+
   
       .skills-header-container {
         .skills-header-title {
@@ -78,7 +75,7 @@
       }
     }
   
-    @media (min-width: 1024px) {
+    @media (min-width: 1281px) {
 
         .skills-container {
             display: flex;

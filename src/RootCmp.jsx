@@ -9,9 +9,9 @@ import { AppFooter } from './cmps/AppFooter.jsx'
 export function RootCmp() {
   return (
     <Router>
-      <div className="main-container-root">
+      <div className="main-layout">
         <AppHeader />
-        <main className="main-layout">
+        <main>
           <HeroSection />
           <Skills />
           <Reviews />

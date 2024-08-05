@@ -34,10 +34,9 @@
         flex-direction: column;
         align-items: center;
         border-radius: rem(10px);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
         .quote-icon {
-            z-index: -1;
+          z-index: -1;
 
           position: absolute;
         }
@@ -56,7 +55,7 @@
         }
 
         .reviewer-icon {
-            border: 1px solid $sec-accent;
+          border: 1px solid $sec-accent;
           width: rem(72px);
           height: rem(72px);
           border-radius: 50%;
@@ -105,8 +104,6 @@
           .reviewer-name {
             font-size: rem(18px);
           }
-
-
         }
       }
     }
@@ -119,7 +116,6 @@
   }
 
   @media (min-width: 1024px) {
-
     .review-left-icon {
       top: rem(60px);
       left: rem(60px);
@@ -149,8 +145,6 @@
           .reviewer-name {
             font-size: rem(18px);
           }
-
-
         }
       }
     }

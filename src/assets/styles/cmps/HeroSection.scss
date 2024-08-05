@@ -37,9 +37,10 @@
   .hero-right-icon {
     width: rem(180px);
     position: absolute;
+    top: 15rem;
+    z-index: -1;
     bottom: rem(20px);
-    left: 50%;
-    transform: translateX(-50%);
+    margin: auto;
   }
 
   @media (min-width: 768px) {
@@ -57,7 +58,7 @@
     .hero-container {
       display: grid;
       grid-template-columns: auto auto;
-      gap: rem(20px);
+      gap: rem(100px);
       text-align: left;
 
       .hero-title-container {
@@ -77,6 +78,8 @@
     .hero-right-icon {
       width: rem(250px);
       left: auto;
+      top: 38rem;
+      z-index: -1;
       right: rem(20px);
       transform: none;
     }

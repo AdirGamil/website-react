@@ -12,7 +12,6 @@ export function HeroSection() {
           </h1>
         </div>
         <div className="hero-text-container">
-          <div>line</div>
           <p className="hero-text">
             Finding the right people and building high performing teams can be
             hard. Most companies aren’t tapping into the abundance of global

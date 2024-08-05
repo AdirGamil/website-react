@@ -24,31 +24,26 @@
       min-width: rem(327px);
   
       .skill {
-        /* הגדרות עבור כל skill */
   
         .skill-icon {
-          /* הגדרות עבור התמונות בתוך כל skill */
         }
   
         .skill-title {
-          /* הגדרות עבור כותרת ה-skill */
         }
   
         .skill-description {
-          /* הגדרות עבור תיאור ה-skill */
         }
       }
     }
   
     .skill-right-icon {
       position: absolute;
-      top: 0; /* מיקום בפינה הימנית העליונה */
-      right: 0; /* מיקום בפינה הימנית העליונה */
-      height: 50px; /* גובה של 50 פיקסלים */
+      top: 0; 
+      right: 0; 
+      height: 50px; 
     }
   
     @media (min-width: 768px) {
-      /* הגדרות עבור טאבלט ומעלה */
   
       .skills-container {
         display: flex;
@@ -58,7 +53,6 @@
       .skills-header-container {
         .skills-header-title {
           min-width: rem(445px);
-          /* הגדרות עבור הכותרת בטאבלט ומעלה */
         }
       }
   
@@ -81,7 +75,6 @@
       }
   
       .skill-right-icon {
-        /* הגדרות עבור האייקון הימני בטאבלט ומעלה */
       }
     }
   
@@ -90,10 +83,12 @@
         .skills-container {
             display: flex;
             flex-direction: row;
+            justify-content: center;
           }
   
       .skills-header-container {
         .skills-header-title {
+          max-width: rem(500px);
             font-size: rem(48px);
             line-height: rem(48px);
         }
@@ -101,27 +96,22 @@
     
     .skills-content-container {
         .skill {
-            /* הגדרות עבור כל skill במסכים גדולים ומעלה */
             
             .skill-icon {
-                /* הגדרות עבור התמונות בתוך כל skill במסכים גדולים ומעלה */
             }
             
             .skill-title {
                 font-size: rem(18px);
-                /* הגדרות עבור כותרת ה-skill במסכים גדולים ומעלה */
             }
             
             .skill-description {
                 font-size: rem(15px);
                 line-height: rem(25px);
-            /* הגדרות עבור תיאור ה-skill במסכים גדולים ומעלה */
           }
         }
       }
   
       .skill-right-icon {
-        /* הגדרות עבור האייקון הימני במסכים גדולים ומעלה */
       }
     }
   }

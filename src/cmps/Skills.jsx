@@ -4,8 +4,8 @@ import iconChart from '../assets/images/icon-chart.svg'
 import SkiilRightIcon from '../assets/images/bg-pattern-home-3.svg'
 export function Skills() {
   return (
-    <section className="skills-section full-width">
-      <div className="skills-container">
+    <section className="skills-section full">
+      <div className="skills-container full">
         <div className="skills-header-container">
           <h1 className="skills-header-title">
             Build & manage distributed teams like no one else.

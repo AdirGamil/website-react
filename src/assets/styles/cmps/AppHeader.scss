@@ -26,17 +26,4 @@
     }
   }
 
-  .header-right {
-    .contact-btn {
-      padding: rem(10px) rem(20px);
-      border: 1px solid $pr-text;
-      border-radius: 40px;
-      transition: background-color 0.3s, color 0.3s;
-
-      &:hover {
-        background-color: $pr-text;
-        color: $sec-state;
-      }
-    }
-  }
 }

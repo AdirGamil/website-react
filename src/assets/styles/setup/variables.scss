@@ -14,8 +14,8 @@ $sec-dark: #002529; // Dark Green
 
 // Breakpoints
 
-// :root {
-//   --layout-padding: 20px;
-//   --max-width: 2360px;
-//   --padded-max-width: calc(var(--max-width) + (var(--layout-padding) * 2));
-// }
+:root {
+  --layout-padding: 40px;
+  --max-width: 2360px;
+  --padded-max-width: calc(var(--max-width) + (var(--layout-padding) * 2));
+}

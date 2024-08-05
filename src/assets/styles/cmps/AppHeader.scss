@@ -1,0 +1,42 @@
+.main-header {
+  margin-block-start: rem(40px);
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .logo {
+    }
+
+    .ul-info {
+      display: flex;
+      list-style: none;
+      margin: 0;
+
+      .info {
+        margin: 0 15px;
+      }
+    }
+  }
+
+  .header-right {
+    .contact-btn {
+      padding: rem(10px) rem(20px);
+      border: 1px solid $pr-text;
+      border-radius: 40px;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background-color: $pr-text;
+        color: $sec-state;
+      }
+    }
+  }
+}

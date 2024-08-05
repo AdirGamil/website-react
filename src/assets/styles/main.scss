@@ -6,9 +6,12 @@
 // // Basics
 @import 'basics/helpers.scss';
 @import 'basics/base.scss';
-// @import 'basics/layout.scss';
+@import 'basics/layout.scss';
 // @import 'basics/links.scss';
 // @import 'basics/forms.scss';
 
 // Components
 @import 'cmps/AppHeader.scss';
+@import 'cmps/HeroSection.scss';
+@import 'cmps/Skills.scss';
+@import 'cmps/Reviews.scss';

@@ -1,0 +1,23 @@
+.main-container-root {
+  display: grid;
+  grid-template-columns:
+    minmax(var(--layout-padding), 1fr)
+    minmax(auto, var(--max-width))
+    minmax(var(--layout-padding), 1fr);
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+
+  > * {
+    &:not(.full) {
+      grid-column: 2;
+    }
+
+    &.full {
+      grid-column: 1 / -1;
+    }
+  }
+}
+
+.narrow-page {
+  --max-width: 960px;
+}

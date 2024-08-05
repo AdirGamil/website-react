@@ -8,10 +8,11 @@ export function HeroSection() {
       <div className="hero-container">
         <div className="hero-title-container">
           <h1 className="hero-title">
-            Build & manage distributed teams like no one else.
+            Find the best <span className="colored">talent</span>
           </h1>
         </div>
         <div className="hero-text-container">
+          <div>line</div>
           <p className="hero-text">
             Finding the right people and building high performing teams can be
             hard. Most companies aren’t tapping into the abundance of global

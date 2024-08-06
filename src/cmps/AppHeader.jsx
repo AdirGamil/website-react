@@ -17,11 +17,11 @@ export function AppHeader() {
             </li>
           </ul>
         </div>
-        <div className="header-right">
+        {/* <div className="header-right">
           <NavLink to="#" className="contact-btn">
             contact us
           </NavLink>
-        </div>
+        </div> */}
       </nav>
     </header>
   )

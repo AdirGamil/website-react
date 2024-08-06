@@ -1,8 +1,9 @@
-$layout-padding: 40px;
+
+$layout-padding: 20px;
 
 .main-layout {
   display: grid;
-  grid-template-columns: minmax(rem($layout-padding), 1fr) 1100px minmax(rem($layout-padding), 1fr);
+  grid-template-columns: minmax(rem($layout-padding), 1fr) minmax(0, 1100px) minmax(rem($layout-padding), 1fr);
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   grid-gap: rem($layout-padding);

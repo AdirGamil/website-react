@@ -1,15 +1,8 @@
 
 .hero-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  max-width: rem(1440px);
-  height: auto;
   padding: rem(20px);
   margin: 0 auto;
-  position: relative;
 
   .hero-left-icon {
     display: none;
@@ -17,9 +10,10 @@
 
   .hero-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 310px;
 
     .hero-title-container {
       .hero-title {
@@ -46,8 +40,8 @@
 
   @media (min-width: 641px) {
     .hero-container {
-      width: 680px;
-
+      display: flex;
+      flex-direction: row;
       .hero-title-container {
         .hero-title {
           font-size: rem(64px);
@@ -74,6 +68,8 @@
     }
 
     .hero-container {
+      display: flex;
+      flex-direction: row;
       .hero-title-container {
         .hero-title {
           font-size: rem(100px);
@@ -89,8 +85,8 @@
 
     .hero-right-icon {
       width: rem(358px);
-      top: auto; /* Reset top for large screens */
-      bottom: rem(20px); /* Align with bottom padding */
+      top: auto;
+      bottom: rem(20px); 
     }
   }
 }

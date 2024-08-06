@@ -7,6 +7,8 @@ $layout-padding: 20px;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   grid-gap: rem($layout-padding);
+  justify-items: center;
+  margin: 0 auto;
 
   > * {
     grid-column: 2;

@@ -13,6 +13,7 @@
     min-width: rem(240px);
 
     .skills-header-title {
+      width: rem(240px);
       font-size: rem(32px);
       line-height: rem(32px);
     }
@@ -35,10 +36,11 @@
   }
 
   .skill-right-icon {
+    width: rem(200px);
+    height: rem(240px);
     position: absolute;
-    top: 0;
-    right: 0;
-    height: 50px;
+    top: rem(530px);
+    right: rem(-60px);
   }
 
   @media (min-width: 641px) {
@@ -51,7 +53,10 @@
     .skills-content-container {
       .skill {
         display: grid;
-        grid-template-columns: minmax(min-content, max-content) minmax(min-content, 1fr);
+        grid-template-columns: minmax(min-content, max-content) minmax(
+            min-content,
+            1fr
+          );
         text-align: left;
 
         .skill-icon {
@@ -67,6 +72,8 @@
     }
 
     .skill-right-icon {
+      top: rem(610px);
+      right: rem(-60px);
     }
   }
 

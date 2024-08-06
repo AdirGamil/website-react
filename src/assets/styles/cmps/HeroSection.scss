@@ -1,19 +1,16 @@
 
 .hero-section {
-  width: 100%;
-  padding: rem(20px);
   margin: 0 auto;
-
   .hero-left-icon {
     display: none;
   }
-
+  
   .hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 310px;
+    width: rem(310px);
 
     .hero-title-container {
       .hero-title {
@@ -40,25 +37,24 @@
 
   @media (min-width: 641px) {
     .hero-container {
-      display: flex;
-      flex-direction: row;
+      width: rem(680px);
       .hero-title-container {
         .hero-title {
           font-size: rem(64px);
         }
       }
     }
-
+    
     .hero-right-icon {
       width: rem(250px);
       top: 38rem;
       right: rem(20px);
     }
   }
-
+  
   @media (min-width: 1281px) {
     min-height: rem(700px);
-
+    
     .hero-left-icon {
       display: block;
       position: absolute;
@@ -66,10 +62,12 @@
       width: rem(200px);
       height: rem(200px);
     }
-
+    
     .hero-container {
-      display: flex;
       flex-direction: row;
+      width: rem(1100px);
+
+
       .hero-title-container {
         .hero-title {
           font-size: rem(100px);
